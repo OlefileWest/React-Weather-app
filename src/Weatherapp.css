@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+#app {
+  margin-left: 500px;
+  margin-top: 100px;
+  height: 500px;
+  width: 300px;
+  font-family: poppins, san-serif;
+}
+#searchButton {
+  color: grey;
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+}
+
+#searchButton:hover {
+  height: 23px;
+  width: 23px;
+}
+
+#searchBar {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 75%;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+#searchBarDiv {
+  background-color: white;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.content {
+  color: grey;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#heading {
+  color: white;
+  text-align: center;
+  font-family: poppins;
+}
+#temperature {
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+}
+#cityName,
+#date {
+  text-align: center;
+  color: grey;
+}
+#date {
+  margin-top: -20px;
+}
+
+#cityName {
+  font-size: 20px;
+}
